@@ -5,12 +5,45 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  width: 100%;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+td{
+  cursor: pointer;
+}
+
+td:hover{
+  color: gray;
+}
+
+.header-a{
+  text-decoration: none;
+  color: white;
+}
+
+.home-a{
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.home-a:hover{
+  border-bottom: 1px solid blue;
 }
